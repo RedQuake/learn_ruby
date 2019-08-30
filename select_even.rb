@@ -1,11 +1,11 @@
 def select_evens(arr)
   res = []
-  arr.each {|x|
+  arr.each { |x|
     if x % 2 == 0
       res.insert(-1,x)
     else
     end
-}
+  }
   return res.sort
 end
 
