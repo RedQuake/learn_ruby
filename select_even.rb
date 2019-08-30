@@ -5,7 +5,7 @@ def select_evens(arr)
       res.insert(-1,x)
     else
     end
-  }
+}
   return res.sort
 end
 
